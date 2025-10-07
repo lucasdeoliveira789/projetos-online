@@ -52,6 +52,7 @@ header h1{
     font-style: normal;
     padding: 20px;
     font-size: 2.5em;
+    text-align: center;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.459);
 }
 
@@ -59,6 +60,7 @@ header p{
     display: block;
     max-width: 400px;
     margin: auto;
+    padding: 0px 0px 30px 0px;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.459);
 }
 
@@ -99,6 +101,7 @@ main {
 main h1 {
     padding: 15px 0px 5px 0px;
     font-size: 1.8em;
+    text-align: left;
 }
 
 main h2 {
@@ -130,6 +133,7 @@ main a::after{
 
 .imagem{
     max-width: 700px;
+    text-align: center;
 }
 
 #bugdroid {
@@ -146,7 +150,15 @@ aside {
 aside h3 {
     background-color: var(--cor5);
     padding: 5px;
+    margin: -5px -5px 0px -5px;
     border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+
 }
 
 footer {
